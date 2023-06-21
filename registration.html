@@ -38,7 +38,7 @@
                         <form>
                             <div class="mb-3">
                                 <label for="email" class="form-label"><h5>Email</h5></label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="title" class="form-label"><h5>Title</h5></label><br>
@@ -59,15 +59,15 @@
 
                             <div class="mb-3">
                                 <label for="fullname" class="form-label"><h5>Full Name</h5></label>
-                                <input type="text" class="form-control" id="fullname" placeholder="Please fill your full name (and academic degree if necessary)" required>
+                                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Please fill your full name (and academic degree if necessary)" required>
                             </div>
                             <div class="mb-3">
                                 <label for="phone" class="form-label"><h5>Phone Number</h5></label>
-                                <input type="tel" class="form-control" id="phone" placeholder="Please fill your country code" required>
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Please fill your country code" required>
                             </div>
                             <div class="mb-3">
                                 <label for="country" class="form-label"><h5>Country</h5></label>
-                                <input type="text" class="form-control" id="country" placeholder="Enter your country" required>
+                                <input type="text" class="form-control" name="country" id="country" placeholder="Enter your country" required>
                             </div>
 
                             <div class="mb-3">
@@ -99,7 +99,7 @@
                                     </label>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="inputText" placeholder="Enter your text" disabled>
+                                    <input type="text" class="form-control" name="organization" id="inputText" placeholder="Enter your text" disabled>
                                 </div>
 
                                 <!-- Add more radio options here -->
@@ -388,9 +388,9 @@
                                 <p>HIMPUNAN PENGEMBANGAN JALAN INDONESIA</p>
                                 <p>Account Number : <b>0017366467</b> - Swift Code : <b>BNINIDJA</b></p>
                                 <p>Bank : BNI Cabang Melawai Raya (BNI Melawai Raya Branch and attach your transfer receipt here.</p>
-                                <p>(File format PDF/jpg/png with max file size 100 mb)</p>
+                                <p>(File format PDF/jpg/png with max file size 2 mb)</p>
                                 <!-- <label for="image" class="form-label">Upload Image</label> -->
-                                <input type="file" class="form-control" id="image">
+                                <input type="file" name="bank_upload" class="form-control" id="image">
                             </div>
                             <button type="button" class="btn btn-primary" id="btn-prev3">Kembali</button>
                             <button type="submit" class="btn btn-primary">Submit</button>
