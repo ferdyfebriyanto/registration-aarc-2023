@@ -39,3 +39,11 @@ body {
 .register-button {
     width: 100%;
 }
+
+a span i {
+    padding-right: 20px;
+}
+
+.login-form button span i {
+    margin-right: 20px;
+}
