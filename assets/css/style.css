@@ -136,9 +136,9 @@ section {
     bottom: 15px;
     z-index: 99999;
     background: #fdb717;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
     transition: all 0.4s;
 }
 
@@ -156,6 +156,10 @@ section {
 .back-to-top.active {
     visibility: visible;
     opacity: 1;
+}
+
+.back-to-top span {
+    color: white;
 }
 
 
@@ -578,7 +582,7 @@ section {
 --------------------------------------------------------------*/
 
 .about .content {
-    background-color: #f6f9ff;
+    /* background-color: #f6f9ff; */
     padding: 40px;
 }
 
@@ -590,7 +594,7 @@ section {
 }
 
 .about h2 {
-    font-size: 24px;
+    font-size: 50px;
     font-weight: 700;
     color: #012970;
 }
@@ -698,6 +702,21 @@ section {
     margin: 0;
     font-family: "Nunito", sans-serif;
     font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------
+# About Event
+--------------------------------------------------------------*/
+
+.about-event .container .flyer img {
+    max-width: 400px;
+    height: 100%;
+}
+
+.about-event .container .detail-event img {
+    height: 50px;
+    margin-bottom: 20px;
 }
 
 
