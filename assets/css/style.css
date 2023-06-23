@@ -719,6 +719,18 @@ section {
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .about-event .container .flyer img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-event .container .detail-event img {
+        max-width: 100%;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Features
