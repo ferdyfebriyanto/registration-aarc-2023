@@ -719,6 +719,27 @@ section {
     margin-bottom: 20px;
 }
 
+.tombol-register {
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: #012970;
+}
+
+.tombol-register .col {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin: 100px;
+}
+
+.tombol-register .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
 @media screen and (max-width: 768px) {
     .about-event .container .flyer img {
         max-width: 100%;
