@@ -544,7 +544,7 @@ section {
 
 @media (max-width: 991px) {
     .hero {
-        height: auto;
+        /* height: auto; */
         padding: 120px 0 60px 0;
     }
     .hero .hero-img {
@@ -2509,4 +2509,11 @@ section {
     text-align: center;
     font-size: 13px;
     color: #012970;
+}
+
+.panduan {
+    padding: 20px;
+    background-color: #f6f9ff;
+    border-radius: 10px;
+    border: 1px solid #e1ecff;
 }
